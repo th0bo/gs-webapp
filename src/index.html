@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base target="_top">
+    <?!= include('src/style'); ?>
+  </head>
+  <body>
+    Hello, World! The time is <?= new Date() ?>.
+    <button>Abc</button>
+    <?!= include('src/script'); ?>
+    <ol>
+      <?!= getOrderedList(); ?>
+    </ol>
+  </body>
+</html>
